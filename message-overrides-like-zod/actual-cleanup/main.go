@@ -54,7 +54,7 @@ func main() {
 	}
 
 	// user := User{FirstName: "william"}
-	user := User{FavouriteColor: "#ffffbb"}
+	user := User{FavouriteColor: "#ffffb"}
 	err := validate.Struct(user)
 	if err != nil {
 		if errs, ok := err.(validator.ValidationErrors); ok {
